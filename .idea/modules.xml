@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RateStar.iml" filepath="$PROJECT_DIR$/RateStar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RateStar.iml" filepath="$PROJECT_DIR$/.idea/RateStar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rateStar/rateStar.iml" filepath="$PROJECT_DIR$/rateStar/rateStar.iml" />
     </modules>
   </component>
 </project>

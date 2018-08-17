@@ -1,1 +1,1 @@
-include ':app'
+include ':rateStar', ':example'
