@@ -4,9 +4,6 @@ import android.content.Context;
 import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.AttrRes;
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
@@ -64,8 +61,7 @@ class Utilities {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
     }
 
-    @ColorInt
-    public static int getThemeColor(@NonNull final Context context, @AttrRes final int attributeColor) {
+    public static int getThemeColor(Context context, int attributeColor) {
         final TypedValue value = new TypedValue();
         context.getTheme().resolveAttribute(attributeColor, value, true);
         return value.data;
