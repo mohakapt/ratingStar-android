@@ -16,7 +16,7 @@ For iOS implementation please check this [repository](https://github.com/mohakap
 Add This dependency to your module-level gradle file:
 ```groovy
 dependencies {
-    implementation 'com.github.mohaka:rating-star:0.1.0'
+    implementation 'com.github.mohaka:rating-star:0.1.1'
 }
 ```
 
