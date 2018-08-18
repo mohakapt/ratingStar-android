@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'rating-star'
+
+    publishedGroupId = 'com.github.mohaka'
+    libraryName = 'RatingStar'
+    artifact = 'rating-star'
+
+    libraryDescription = 'A nice looking new concept for rating bars implemented in Android.'
+
+    siteUrl = 'https://github.com/mohakapt/ratingStar-android'
+    gitUrl = 'https://github.com/mohakapt/ratingStar-android.git'
+
+    libraryVersion = '0.1.0'
+
+    developerId = 'mohaka'
+    developerName = 'Haytham KATBY'
+    developerEmail = 'mohakapt@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "0.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support:support-vector-drawable:27.1.1'
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

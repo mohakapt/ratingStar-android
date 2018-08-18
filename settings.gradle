@@ -1,1 +1,1 @@
-include ':rateStar', ':example'
+include ':ratingStar', ':example'

@@ -1,4 +1,4 @@
-package com.github.mohaka.ratestar.example;
+package com.github.mohaka.ratingstar.example;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

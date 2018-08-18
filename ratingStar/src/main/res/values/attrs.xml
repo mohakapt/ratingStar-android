@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingStar">
+        <attr name="rating" format="integer" />
+        <attr name="showNumbers" format="boolean" />
+        <attr name="starColor" format="color" />
+        <attr name="highlightColor" format="color" />
+    </declare-styleable>
+</resources>
