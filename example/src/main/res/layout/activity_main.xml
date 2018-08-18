@@ -10,9 +10,7 @@
         android:id="@+id/star"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:highlightColor="#ffab23"
         app:rating="1"
-        app:showNumbers="true"
-        app:starColor="#311b92" />
+        app:showNumbers="true" />
 
 </LinearLayout>

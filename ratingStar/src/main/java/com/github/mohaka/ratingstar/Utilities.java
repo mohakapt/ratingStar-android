@@ -8,6 +8,9 @@ import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
 
+/**
+ * Created by MoHaKa on 2/7/17.
+ */
 class Utilities {
     private Context context;
 
@@ -61,7 +64,7 @@ class Utilities {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
     }
 
-    public static int getThemeColor(Context context, int attributeColor) {
+    static int getThemeColor(Context context, int attributeColor) {
         final TypedValue value = new TypedValue();
         context.getTheme().resolveAttribute(attributeColor, value, true);
         return value.data;
