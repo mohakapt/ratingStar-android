@@ -11,6 +11,8 @@ For iOS implementation please check this [repository](https://github.com/mohakap
 
 **Note:** The idea of this project is inspired from this [concept](https://www.uplabs.com/posts/rating-page).
 
+![Example](https://raw.githubusercontent.com/mohakapt/ratingStar-android/master/images/star.gif)
+
 
 ### Installation
 Add This dependency to your module-level gradle file:
