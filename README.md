@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/github/license/mohakapt/ratingStar-android.svg)](https://github.com/mohakapt/ratingStar-android)
 
 The concept looks like a flower with every petal representing a specific rating.<br/>
-*The idea of this project is originally inspired by this [concept](https://www.uplabs.com/posts/rating-page).*
+*The idea of this project is originally inspired by this [concept](https://goo.gl/Yn2CCh).*
 <br/><br/>
 
 ![Example](https://raw.githubusercontent.com/mohakapt/ratingStar-android/master/images/star.gif)
@@ -46,7 +46,7 @@ For an iOS implementation please check this [repository](https://github.com/moha
 |app:highlightColor|R.attr.accentColor|The color of highlighted petals of the star.| 
 
 ## Roadmap
-The library is still not as elegent as the original concept, so I might work more on adding some animations in my spare time. (But unfortunately since I have another job, I can't give any promises or deadlines).
+The library is still not as elegant as the original concept, so I might work more on adding some animations in my spare time. (But unfortunately since I have another job, I can't give any promises or deadlines).
 
 
 ## Contributing
@@ -59,4 +59,4 @@ I will try to provide release notes with future releases.
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mohakapt/ratingStar-android/blob/master/LICENSE) file for details
+This project is licensed under the Apache-2.0 license - see the [LICENSE.md](https://github.com/mohakapt/ratingStar-android/blob/master/LICENSE) file for more details.
